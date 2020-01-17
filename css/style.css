@@ -1,0 +1,664 @@
+@font-face {
+    font-family: sniglet;
+    src: url(../font/Sniglet-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../font/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand-bold;
+    src: url(../font/Quicksand-Bold.ttf);
+}
+
+@font-face{
+    font-family: lato;
+    src: url(../font/Lato-Bold.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: lato-bolditelic;
+    src:url(../font/Lato-BoldItalic.ttf);
+}
+
+.f {
+    font-family: sniglet;
+    font-weight: bold;
+}
+
+.t {
+    font-family: Quicksand;
+}
+
+.tb {
+    font-family: quicksand-bold;
+}
+
+.hf {
+    font-size: 54px;
+}
+
+.shf {
+    font-size: 44px;
+}
+
+.s {
+    font-size: 25px;
+}
+.sm-font{
+    font-family: lato-bolditelic;
+    font-size: 13px;
+}
+.ct-font{
+    font-family: lato-bolditelic;
+    font-size: 18px;
+}
+.f-20{
+    font-size: 20px;
+}
+
+.custom-shadow{
+    box-shadow: 0px 0px 5px gray ;
+    border: 1px solid rgb(172, 173, 169);
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.back {
+    background-color: beige;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url("../myimage/alabama-architecture-auburn-university-207692.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url("../myimage/alabama-architecture-auburn-university-207692.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service {
+    background-color: #ffc603;
+}
+
+
+.service img {
+    width: 200px;
+    height: 230px;
+    margin: auto;
+    display: block;
+}
+
+.img {
+    width: 200px;
+    height: 230px;
+    margin: auto;
+    display: block;
+}
+
+.cont {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.svc-img-1 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/slide2.jpg");
+    background-size: cover;
+
+    border-radius: 200%;
+}
+
+.svc-img-3 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/apartment-bed-bedroom-271624.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.svc-img-2 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/access-blurred-background-cable-1629299.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.btnx {
+    width: 127px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 14px;
+    background-color: #9009d7;
+    margin: auto;
+    margin-top: -49px;
+}
+
+.btn-owl {
+    margin-top: -40px;
+    margin-left: 40%
+}
+
+.borderx {
+    background: bisque;
+    background-color: lightgoldenrodyellow;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 30px;
+}
+
+.svc-caption {
+    width: 79%;
+    margin: auto;
+    color: #5a5656;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.teacher {
+    background-image: url(../myimage/bg-index.jpg);
+}
+
+.ht {
+    height: 500px;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (min-width: 255px) {
+    .center1 {
+        width: 82%;
+    }
+}
+
+@media screen and (min-width: 758px) {
+    .font1 {
+        font-size: 52px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .font2 {
+        font-size: 23px;
+    }
+
+    .center1 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .font1 {
+        font-size: 25px;
+    }
+
+    .font2 {
+        font-size: 18px;
+    }
+}
+
+
+/*======line height======*/
+.p-text {
+    line-height: 2rem;
+}
+
+.hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../myimage/architecture-bungalow-chimney-1569003.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.center2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(10%, -50%);
+
+
+}
+
+/*=======footer color====*/
+.bg {
+    background-color: #d5d5d5;
+}
+
+/*==============================about page ==================================================================================*/
+/*====================2nd sction background color========*/
+.section-bg {
+    background-color: white;
+}
+
+.u {
+    background-color: black;
+    width: 150px;
+    height: 3px;
+    margin: auto;
+}
+
+.btny {
+    border: 2px solid black;
+    padding: 13px 25px;
+    display: block;
+    margin: auto;
+    margin-top: 14%;
+    margin-bottom: 30%;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.btny:hover {
+    background-color: #ffb70a;
+    border-color: #ffb70a;
+
+    transition: all 0.4s ease;
+}
+
+.ab-slot {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../myimage/about-sec-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 25% 0%;
+}
+
+.abt-img-1 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-1-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-2 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-2-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-3 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-3-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-4 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-4-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-5 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-5-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-6 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-6-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.abt-img-7 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/team/team-7-250x250.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.success ul {
+    padding: 0px;
+}
+
+.success ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.success ul li:first-child:before {
+    content: "";
+    margin: 0rem;
+}
+
+.success ul li:before {
+    margin-right: .5rem;
+    content: "\b7";
+    margin-left: .5rem;
+}
+
+/*=====our athority===================*/
+.section-bg1 {
+    background-color: #BCBCBC;
+}
+
+/*===================3rd section===========*/
+.section-bg2 {
+    background-color: #BBBBBB;
+}
+
+/*============================staf page==============================================================================================*/
+/*================ =======2nd section bg color =========================*/
+.section-bg3 {
+    background-color: #C8C7C7;
+}
+
+.border-style {
+    border-bottom: 2px dotted;
+    width: 180px;
+    margin: auto;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.staff ul li {
+    list-style: none;
+    background-color: white;
+}
+
+.fiture-img img {
+    width: 200px;
+    height: 224px;
+    border-radius: 344%;
+    display: block;
+    margin: auto;
+}
+
+.staff-nt-img-1 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.staff-nt-img-2 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.staff-nt-img-3 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.staff-nt-img-4 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.staff-nt-img-5 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-5.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+.staff-nt-img-6 {
+    width: 200px;
+    height: 232px;
+    margin: auto;
+    background: url("../myimage/non-teaching/nt-6.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200%;
+}
+
+/*======login box shadow=====*/
+.box {
+    box-shadow: 0px 0px 20px 3px;
+}
+
+/*========report page=================*/
+.background {
+    border-top: 3px solid orange;
+}
+
+.red {
+    background: red;
+}
+
+/*==========User pannel=============*/
+.head-search input {
+    height: 30px;
+}
+
+header .row {
+    padding: 5px 0px;
+}
+
+.navigation {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    top: 62px;
+    overflow: scroll;
+    transition: 0.5s;
+}
+
+.sidebar_accordination {
+    list-style: none;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.sidebar_accordination p {
+    padding: 21px 19px;
+    margin: 0px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.tree_head {
+    padding: 14px 20px;
+    position: relative;
+    font-size: 18px
+}
+
+.sidebar_accordination li a {
+    color: white;
+    text-decoration: none;
+}
+
+.tree_head:hover {
+    background: black;
+    border-left: 3px solid #03FBC7;
+    color: #2098D1;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.tree_head i:last-child {
+    position: absolute;
+    right: 5%;
+    top: 22px;
+}
+
+.tree_pannel {
+    list-style: none;
+    padding: 0px;
+    background: #606060;
+}
+
+.tree_pannel li {
+    padding: 10px 23px 8px;
+    color: #b7b1b1;
+}
+
+.tree_pannel li a {
+    padding-left: 5px;
+    font-family: calibri;
+    color: #b7b1b1;
+}
+
+.tree_pannel li:lastchild {
+    padding-bottom: 10px;
+}
+
+.tree_pannel li:firstchild {
+    padding-top: 0px;
+}
+
+.tree_pannel li:hover {
+    color: #43C2FF;
+    transition: 0.3s;
+}
+
+.tree_pannel li:hover a {
+    color: #43C2FF;
+    transition: 0.3s;
+}
+
+.focus {
+    background: black;
+    border-left: 3px solid #03FBC7;
+    color: #2098D1;
+}
+
+.dropdown_pannel {
+    position: absolute;
+    z-index: 1;
+    background-color: aqua;
+    right: 10px;
+    top: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #595858;
+}
+
+.arrow {
+    color: aqua;
+    position: absolute;
+    right: 9px;
+    top: 16px;
+    font-size: 42px;
+    z-index: 2
+}
+
+.dashbord
+{
+    margin-top: 62px;
+    background: #d4d4d4
+}
+
+@media screen and (max-width: 769px) {
+    .small_font {
+        font-size: 15px;
+    }
+}
+
+/*=======admin dash======*/
+
+
+.text-sub {
+    color: #a8a8b2;
+}
+
+.das-icon-pannel {
+    background: white;
+}
+
+.das-icon-setting {
+    background: rgba(91, 43, 248, 0.14);
+    padding: 16px;
+    border-radius: 250px;
+}
+/*==========Student Admission============*/
+.add_more_detailse{
+    border-radius:5px;
+    border:1px solid rgb(223, 223, 223); 
+    border-top: 4px solid rgb(10, 185, 147);
+    border-bottom:1px solid rgb(32, 32, 32);
+}
+@media screen and (max-width ){
+    
+}
