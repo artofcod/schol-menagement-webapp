@@ -393,6 +393,15 @@
     content: "\b7";
     margin-left: .5rem;
 }
+.contact-form-holder{
+    padding: 2% 26%;
+}
+
+.contact-form-holder form{
+    padding: 8% 6%;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
 
 /*=====our athority===================*/
 .section-bg1 {
