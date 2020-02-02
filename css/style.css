@@ -71,6 +71,50 @@
 .back {
     background-color: beige;
 }
+/*==========  Home page slider  ==========*/
+ /* slider font  */
+
+ .title {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 25px;
+}
+
+/* slide1 */
+.caption-style {
+    top: 70px;
+}
+
+.caption-style .col-6 {
+    text-align: right;
+    padding-right: 50px;
+}
+
+/* slide2 */
+.slide-2-dir{
+    top: 70px;
+    right: 100px;
+} 
+
+/* slide3 */
+.slide-3-dir{
+    top: 130px;
+    left: 140px;
+}
+
+.slide-3-dir .col-6{
+    text-align: left;
+}
+
+/* slide4 */
+.slide-4-dir{
+    right: 130px;
+    top:370px
+}
+
+/*========== End of home page slider ==========*/
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url("../myimage/alabama-architecture-auburn-university-207692.jpg");
